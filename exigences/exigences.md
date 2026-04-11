@@ -1,0 +1,32 @@
+## Fichier d'expression du besoin fonctionnel
+Les besoins exprimés ici sont ceux de l'application `card-classic`
+
+### Modèle de concepts
+L'application ne manipule qu'un seul concept : le `Contact`.
+Un `Contact` a 4 attributs :
+- Nom
+- Prénom
+- E-Mail
+- Téléphone
+
+### Interface utilisateur
+L'interface utilisateur comporte 2 modes :
+- Le mode `liste`
+- Le mode `fiche`
+
+Le mode `liste` est le mode par défaut de l'application affiché au démarrage. Il présente la liste de tous les `Contacts` de la base de données dans un tableau. Chaque en-tête de colonne est cliquable et permet de trier l'ensemble de la base (par ordre alphabétique, puis par ordre alphabétique inversé). Un bouton `Ajouter` permet de créer un nouveau `Contact` en mode `fiche` (couleur verte). La dernière colonne du tableau comporte 2 boutons :
+- Un bouton `Modifier` (couleur verte) permettant d'accéder aux attributs du `Contact` en mode `fiche`.
+- Un bouton `Supprimer` (couleur rouge) permettant de supprimer définitivement le `Contact`.
+
+En bas du tableau, un bouton `Exporter RDF/OWL` (couleur bleu) permet de télécharger l'intégralité de la base de contacts au format RDF/OWL (XML).
+L'export utilise l'ontologie vCard du W3C (http://www.w3.org/2006/vcard/ns#) pour décrire chaque contact.
+
+Le mode `fiche` permet d'ajouter et/ou de modifier un `Contact`.   
+Un bouton `Valider` (couleur bleu) permet d'enregistrer un nouveau `Contact` ou de valider les modifications d'un `Contact` existant.
+
+### Exigences techniques
+- L'application doit être hébergée dans un container Docker.
+- Le nom de l'image Docker est `card-classic`.
+- Le nom du container Docker est `card-classic`.
+- L'application `card-classic` est accessible via sur <a href="[http://localhost:3000)/">http://localhost:3000</a>.
+- L'architecture de l'application doit permettre de modifier l'interface utilisateur sans perdre la base de données existante.
