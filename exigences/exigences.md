@@ -14,7 +14,11 @@ L'interface utilisateur comporte 2 modes :
 - Le mode `liste`
 - Le mode `fiche`
 
-Le mode `liste` est le mode par défaut de l'application affiché au démarrage. Il présente la liste de tous les `Contacts` de la base de données dans un tableau. Chaque en-tête de colonne est cliquable et permet de trier l'ensemble de la base (par ordre alphabétique, puis par ordre alphabétique inversé). Un bouton `Ajouter` permet de créer un nouveau `Contact` en mode `fiche` (couleur verte). La dernière colonne du tableau comporte 2 boutons :
+Le mode `liste` est le mode par défaut de l'application affiché au démarrage.    
+Il présente la liste de tous les `Contacts` de la base de données dans un tableau.   
+Chaque en-tête de colonne est cliquable et permet de trier l'ensemble de la base (par ordre alphabétique, puis par ordre alphabétique inversé).   
+Un bouton `Ajouter` permet de créer un nouveau `Contact` en mode `fiche` (couleur verte).    
+La dernière colonne du tableau comporte 2 boutons :
 - Un bouton `Modifier` (couleur verte) permettant d'accéder aux attributs du `Contact` en mode `fiche`.
 - Un bouton `Supprimer` (couleur rouge) permettant de supprimer définitivement le `Contact`.
 
