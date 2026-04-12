@@ -25,7 +25,7 @@ La dernière colonne du tableau comporte 2 boutons :
 En bas du tableau, un bouton `Exporter RDF/OWL` (couleur bleu) permet de télécharger l'intégralité de la base de contacts au format RDF/OWL (XML).
 L'export utilise l'ontologie vCard du W3C (http://www.w3.org/2006/vcard/ns#) pour décrire chaque contact.
 
-Le mode `fiche` permet d'ajouter et/ou de modifier un `Contact`.
+Le mode `fiche` permet d'ajouter et/ou de modifier un `Contact`.   
 Dans la `fiche`, les champs sont affichés les uns en dessous des autres.    
 Un bouton `Valider` (couleur bleu) permet d'enregistrer un nouveau `Contact` ou de valider les modifications d'un `Contact` existant.
 
