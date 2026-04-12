@@ -2,7 +2,7 @@
 Les besoins exprimés ici sont ceux de l'application `card-classic`
 
 ### Modèle de concepts
-L'application ne manipule qu'un seul concept : le `Contact`.
+L'application ne manipule qu'un seul concept : le `Contact`.   
 Un `Contact` a 4 attributs :
 - Nom
 - Prénom
