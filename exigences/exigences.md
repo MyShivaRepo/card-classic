@@ -30,7 +30,7 @@ Dans la `fiche`, les champs sont affichés les uns en dessous des autres.
 Un bouton `Valider` (couleur bleu) permet d'enregistrer un nouveau `Contact` ou de valider les modifications d'un `Contact` existant.
 
 ### Exigences techniques
-- L'application doit être hébergée dans un container Docker.
+- L'application est en mode web et doit être hébergée dans un container Docker.
 - Le nom de l'image Docker est `card-classic`.
 - Le nom du container Docker est `card-classic`.
 - L'application `card-classic` est accessible via sur <a href="[http://localhost:3000)/">http://localhost:3000</a>.
