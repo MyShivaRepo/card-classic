@@ -33,5 +33,5 @@ Un bouton `Valider` (couleur bleu) permet d'enregistrer un nouveau `Contact` ou 
 - L'application est en mode web et doit être hébergée dans un container Docker.
 - Le nom de l'image Docker est `card-classic`.
 - Le nom du container Docker est `card-classic`.
-- L'application `card-classic` est accessible via sur <a href="[http://localhost:3000)/">http://localhost:3000</a>.
+- L'application `card-classic` est accessible via <a href="[http://localhost:3000)/">http://localhost:3000</a>.
 - L'architecture de l'application doit permettre de modifier l'interface utilisateur sans perdre la base de données existante.
