@@ -1,0 +1,13 @@
+services:
+  card-classic:
+    image: card-classic
+    container_name: card-classic
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - card-classic-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  card-classic-data:
