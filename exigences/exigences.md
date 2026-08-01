@@ -9,7 +9,7 @@ Un `Contact` a 4 attributs :
 - E-Mail
 - Téléphone
 
-L'application peux gérer plusieurs adresses e-mail et plusieurs numéro de téléphone
+L'application peut gérer plusieurs adresses e-mail et plusieurs numéro de téléphone
 
 ### Interface utilisateur
 L'interface utilisateur comporte 2 modes :
